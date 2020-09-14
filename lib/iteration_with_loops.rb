@@ -5,6 +5,6 @@ def find_even_values(src)
   flattened = src.flatten()
   
   flattened.each do |ele|
-    puts ele if ele % 2 == 0 
+    puts ele if ele.even? 
   end
 end
